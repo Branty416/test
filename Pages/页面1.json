@@ -5,6 +5,92 @@
   "Cols": {
     "Count": 60
   },
+  "AttachInfos": {
+    "4,8": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_NewMenuLight",
+        "Items": [
+          {
+            "Text": "菜单1",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单1_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单1_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "菜单2",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单2_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单2_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "菜单3",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "菜单3_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "菜单3_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 14.66,
+            "Bold": false,
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 13.33,
+            "Bold": false,
+            "Height": 40.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    }
+  },
   "StyleDatas": {
     "Types": {
       "Strs": [
@@ -15,6 +101,9 @@
       "FontFamily": 0
     }
   },
+  "Spans": [
+    "4,8,28,17"
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "PermissionData": {
@@ -38,4 +127,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//nyH2/fVPrljpQh9LDVH5aCa+l5k1zGMWzDWqKXPMopeVe4Xr4NFiJUI7bmwERiFP/wDDrWESx/QMUIIhkAByxVjKOsuohTIbhIXWkr5k7UtPt0su0f4aotJrBrZV6G9XWy86LxKg7G0Q/ejdvT/otCCuJi0DqiQAcTKsG7XrIDVTBw0ElyGGUTreIkU4ceQ8cJg13dvOiIPWrvwRWrmZZQnxHtg8PBK3oSQb/YchoLuKuAk1uhfeknDHJH7atADVFJygIa5maBwlKGUX3PPas06H0KJWEI0ASYPHeCVtmwGnl8yn1re/qYIUqGiknXCS64ma0CuaNCUFMEM7Vp6Xd954YEUCWF9buWTZ9vlzwK1CRYlQDp5T37dvU66AlWLcaC2bRRQ1wQbqU8ekdYaSdJ4hEhjr+wZ+8hgn2JmgFdgwVSwUIeFzT7U/LBIiv8JUL1+Ur96V5HJq3JdWdrq5UgH2A7DgDxhJ1AwaR65M6crHKmzgd6p8nI8Mu/SCwseF0tJpZM2tvTmHdQPc5tu40jZuxLfm6Si3hWmyGJrmdMwJChGKrdCElgNDXskp+vEwUwz+juiUuKB8E+C3WBYur9MENXoZJbvGSB+AWq6FCPr7GgVMqSZLts4MTxrvJgsnOcM9tksXARL6QW6jnoI6QUNVhZ3JZsqgKT+byOrVeKW7BZQjB2nAzAgNTJcX8HoleBnh8aOYUzDR/h3iYsIZGTEBVF+On+/nLGBT7Mm/c+Q2T11Nr0cLIMsi9SEo7iETzG65bzL8Uk6InwmO6MzG0NaF3EveADSgFmrooOS45LNdbJxSFpJHSBd2F8Yc4YBTe/7z6YQYRCMHVsrtAktU//Rq7HTs78pW8Mq4pZUbn1QJ5+qXZu1bGcVCCIMzoNQAhjoE2Q0k240b3WKiCLaWGw==|920
+}//PjAfLUtgCOxUafRxn5J/Y+g6WqwMCUD6aKo5TZ1j6kySfKHz94OjpNk3z2qv39IGWhDaQ2gPYOCuO962h04fEvhABbf+3/Lwrm6NSHM6BrSfWmIUHb/Sym1eVIiggkLL56bqarNmMcvFS3ICMcISP/w40KGEGXlQtWM3BaItisRFsDopRGekBDmF4ISTKWVKBxikERiZjFq28GmxByDKwDR5is+/c5iUyMWq//J5y41ErNO+bHQg7aOLWaYZdUkEVrJrNLHZxXw9XjKnu7HGxAImpqKLJi7K8C1XsyUPJbmtekhUB0XeZP+CVAXXTGO8SPtrjmmBcQhIsJLgS+dlfVRTsXACFIoU9yKnG3FBmkQ5Ador4A+/QhUbP7iYLmJgg0HUUamc4s4WPekkTC4rpvt1QOZphaQTfwA5MuE2pEyDgQZFQ98PzO2i1YmT2TKKM/GwNjfZUaGLOcqqcYjKIrjGnoaIgbfeiAmq5dbEmi/wkA9e2vuXE1vsIDjcaQuQSocyxDcxp6LUp0WAgd9g8RGjXteLur/m1sXlHufVAw0XFvoeyTHvg/xYEq3MQspocWSzLFJ6hAgzZZIzOoPUZQMOHw0Ak1YoMljEWXbOvLZqAYdw8MwbNMtSj7exOv1Yq9i5Xto8mzWrHarUKvSuf7JoH8+FR0u4jQtAXu3IZMLehxdjUu9SfTjda0QwdslXMLQbMyAcq4jJZYwRAe3znSZqjWKVjr9My9Xh82TbLTxCm1SAxxNp08ulPD2bdLsv25zm1Sq/JMJELAaVg67EAFe1g++suD1W9FW8IW1Fz4YhLD+smSO8eNBeH4O4EguAO3EuMehJZHljzyHUxCBRrFCY73bU5rMUe1t4yAuyRrH2+bgdMmRCQXA0LkZTYk+MOAlGlR1NgaPdQ5Kq7UE6jA==|920
