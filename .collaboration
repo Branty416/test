@@ -105,7 +105,17 @@
   },
   {
     "ModuleName": "PCPage/页面1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Grapecity\\Brantyyan",
+      "Email": "a@a.com"
+    },
+    "LockDateTime": "2024-09-29T16:58:03.8281097+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\页面1.json",
+      "Pages\\页面1.rd"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
