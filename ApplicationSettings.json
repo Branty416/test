@@ -9,6 +9,8 @@
   "UserServicePort": 24865,
   "StartDateFiscalYear": 1,
   "BaseOnStartingMonth": true,
+  "UseInputManModernStyle": false,
+  "PageBindingTablesIncludeDataSource": false,
   "MultipleLanguageSettings": {
     "Languages": [
       {
@@ -35,5 +37,8 @@
       "ProcessTrackerResource": {}
     },
     "PluginResource": {}
+  },
+  "AppAIModelSettings": {
+    "AIModels": []
   }
 }
