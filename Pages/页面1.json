@@ -5,158 +5,6 @@
   "Cols": {
     "Count": 60
   },
-  "AttachInfos": {
-    "4,8": {
-      "CellType": {
-        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
-        "TemplateKey": "_RS_NewMenuLight",
-        "Items": [
-          {
-            "Text": "菜单1",
-            "CanVisitRoleList": [
-              "FGC_Anonymous"
-            ],
-            "SubItems": [
-              {
-                "Text": "菜单1_1",
-                "CanVisitRoleList": [
-                  "FGC_Anonymous"
-                ]
-              },
-              {
-                "Text": "菜单1_2",
-                "CanVisitRoleList": [
-                  "FGC_Anonymous"
-                ]
-              }
-            ]
-          },
-          {
-            "Text": "菜单2",
-            "CanVisitRoleList": [
-              "FGC_Anonymous"
-            ],
-            "SubItems": [
-              {
-                "Text": "菜单2_1",
-                "CanVisitRoleList": [
-                  "FGC_Anonymous"
-                ]
-              },
-              {
-                "Text": "菜单2_2",
-                "CanVisitRoleList": [
-                  "FGC_Anonymous"
-                ]
-              }
-            ]
-          },
-          {
-            "Text": "菜单3",
-            "CanVisitRoleList": [
-              "FGC_Anonymous"
-            ],
-            "SubItems": [
-              {
-                "Text": "菜单3_1",
-                "CanVisitRoleList": [
-                  "FGC_Anonymous"
-                ]
-              },
-              {
-                "Text": "菜单3_2",
-                "CanVisitRoleList": [
-                  "FGC_Anonymous"
-                ]
-              }
-            ]
-          }
-        ],
-        "MenuLevelsStyle": [
-          {
-            "FontSize": 14.66,
-            "Bold": false,
-            "Height": 45.0,
-            "IconHeight": 24.0,
-            "IconWidth": 24.0
-          },
-          {
-            "FontSize": 13.33,
-            "Bold": false,
-            "Height": 40.0,
-            "IconHeight": 24.0,
-            "IconWidth": 24.0
-          }
-        ]
-      }
-    },
-    "11,37": {
-      "CellType": {
-        "$type": "Forguncy.FormCellType, ServerDesignerCommon",
-        "ColumnCount": 1,
-        "LabelGap": 8,
-        "CustomLabelSize": 100,
-        "LabelStyle": {
-          "horizontalAlignment": 2,
-          "verticalAlignment": 1
-        },
-        "ItemGap": 24,
-        "RowGap": 24,
-        "ColumnGap": 24,
-        "ValidationErrorTo": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 4,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
-        "Name": "Container1",
-        "Padding": {
-          "Left": 12.0,
-          "Top": 12.0,
-          "Right": 12.0,
-          "Bottom": 12.0
-        },
-        "Children": [
-          {
-            "$type": "Forguncy.FormCellTypeItem, ServerDesignerCommon",
-            "Label": "标签",
-            "ItemWidth": 96.0,
-            "ItemHeight": 32.0,
-            "LabelStyle": {
-              "horizontalAlignment": 2,
-              "verticalAlignment": 1
-            },
-            "Name": "Label1",
-            "AttachedInfo": {
-              "CellType": {
-                "$type": "Forguncy.LabelCellType, ServerDesignerCommon",
-                "Text": "文本"
-              }
-            },
-            "StyleInfo": {
-              "Formatter": "@"
-            },
-            "Value": "文本"
-          }
-        ]
-      }
-    }
-  },
   "StyleDatas": {
     "Types": {
       "Strs": [
@@ -167,10 +15,6 @@
       "FontFamily": 0
     }
   },
-  "Spans": [
-    "4,8,28,17",
-    "11,37,6,10"
-  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "PermissionData": {
@@ -194,4 +38,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//SxeV4u7WLwYGco5p+G5emAMWVm8R31//XptD0ktMPwOqxyFMBJ//JKqZGJ4h8aBt+adf8BxNTSXuhoL1GZJuNuflcgbwwLqzy+b2sdL02n8V4T0suJFCWq9Yphq1o9ST43PeoDNt7HDInu5sG66WI7T3GS974J/4CB1KgTnq2xu4uB/AoFkUzscLg9Zs6sNfW/yuKaC4yxlaVd1xExHsMquAIkSrZ9T676VIhU9rUFvgpPYzXm7uZhXPd+200jHfv6BhszrybxVmsBikrT5mb3KzYnaN6XTJR2VQLcGbBD48t3RkHLyzlKQcoDuPoyUd1MYf0ksCoZM1KnZBTP4VZ3N9C1g3bojP1oVA5MOR6LvvMztPvRh7/M3nBkv6vkHmAnAaM5Ui+Ify78YFtEi8B+bcRCp2aOGGOtLx11ZqEbBun3p2oFqw8yrRfQnpLM3OTBlsFjyEbMyFDSOG7PsMdgHeAyI3QwJ4tYtxXaSmrylsWBk4NSU4S1FB/AZ7pZLklqcINfepRX4MmbvsxGObfSU7yNKmMIirDc3hz7IKF/nd9QRVm58aDm0nJTT5dyURZP+ZMeRpiAMiUDgfak4ZHKVlVuhe21Q45Xk7VoJ3tvRfJdYokkX8YpJm2ROt4DHnBezuhnvmOsqDqb74P63OdQ5X9HRnf+Djs1rVIC+N3M7nBnkeZmvT0hIhSyE/bxacKdWUsc6TrZlYdu5GBY/pSiJkys4f0dSdIa47D3NThemQIwgLUZ8aWz78oPS/Fy03qy5lwv9yd0y4JZc6pFW8OD1v28TRgsz+u+OVH3/I7e2vvpo5YZZiBYhjsJlEeTgMcdRhS9+QcXELfEJrq627SmOA5ei5oaeQsUUwBUU8km1fd9w2yRBSjGb7xyCRbRPpi394M7UslmUE+0Ekg/kE0g==|920
+}//mqBiMiZk4gaI7tu0+GL2HBmwaaPlVHtFpi3Usn0wUXMh6Y22xh4JkSMNJj5OwpSe99SPeWbIor3YIZn++TxhNpHhPK4pL96VaNRgvW6mSdJ4o8OtF3rps4eJjz+5ajtfG2eykgMLlCZvvq+LCepwZr9VfaT7i/bJllJ4jRcyTEAwkoqiZvNZN3qltIThnYgBgQ3s01X+dE5+2/7EEPTpDoYOHSEsd+l+pMMPhXR+3+5KKAN2RxcsOZk+GbmZ7ZnXKtXuu5RR/74HHUZzhwc5nfuLq0LXEJBUxCU4unlJrPQSF1BRoT8MfmuDPi2U4Kqghx4rrWZsjclSrBPSEgYp5J0vffp1yMr+Wu6cyjEvMk2lusVXtH5SNBXGWZPuDXBTBSRjQ4N2VTpwlgO6yGWpZTzUJa7d6K1SN17pbymilpKynGHJdiHfxX6st6IOzZ6nJsvHGIAdBgTmnNoMGlOsAp0XozZ/ssfiKnhfo3vXzBGxgJh9GRsnmMjWwguz9lcFxAhbmmj1vXezTeMBUOv8pBKK8hZ8aV5QkGh6bxJkEDK/fx/G1FZ6/5NLC0Mp6rLjQEJDMGmkvzWfq1uG4AAW6wm4tMZ1jBtgDvVu/GwRpZK3K9QMz1si+YF+32fpXlP6I2KM7qBndEnN6xHXOfpXVnkUMgxk107ePfIVoKZcNUPGC7GF0BU/I+D7QHE2YTJl72cVL56oFIWGXmQ4nsOlMkON5t+VhJ7WRMCRCHw2Ug7fkZJU6HXlBASwVnP441x3UaxHQ7cTqB0kmt3hVne+mo4T4mr5yQCqvee/yRua+ZavkXef1KesfnsCEPmuTtNvdOGJM1GhHSoV4DwTKzleNhVOvCNVpV2YyqxrH5ddRLapnszqthYRa3mmePpcPN7YR3aIhMyTAZJvK07wndZ0Dh0jLDjymv+IK/RKXqth3/vzPF2tr8SD61GGR8FrdG1bkDb+Pv7b0Qusd7c409wkemFPPu5UI+TqTMPnwfjq7642Oj+mIzzD/EghKMrhpF+Ff0h+WQUjRegOdmeUuXECN5hU+nHNGYYXPknRM0+3js+nTQwXipx3x9CTkBVkI4vLTqdkX31IsSd+n5Q+giOZD8h+dY18zk/dkBIYLsgF25nO80PGCcXuRTgtDuJu5zaDqEGX9iZrN/np1aYbR8UizDOFVM5s9QvVk+t5hbeqMagis+MnWAnrq8/9dCAVmNIBt/NgH3g71QhCjdCmjRy8OtU7MmOPX7KBR+wsN2a7vlahtvl/bgYLNtS/508EyZiCYzBptriJA1zq3pcYEgoVrgkPgeMZ5Jjo7FklTVmKRWosoA3CxBIDgiRBQ6T04U5DIF+trMYr5z3OIi+K4AYh7i+WK0Hbcgc0+cVg+yqwl6NLWVEVwCz//A30OMf9SWb0br+YYWuuVHW+xBtcNQYZ3PeleM0E9WXaEWA7cg870MytSXYvyM+QVucEdD8g5VyUk45bjf1vESdJTYpf8xAlsa3uymXQS+s95cwW5ROE3T0+dvuLxSAFRhOjICI338Y0eGy70JTFjKOVjx8Z/ma+wQhvI0+ZvIjmAbZFB0JKtNYqlF0v/c5ms6ewjppjo3ym6Oe8CA8YAe40Exb9xmuPul1M4A5HGAKcoKKfxYsdpJZBtKCLUoq8FC/0EH8B9SnBotVqILrQo+N8QMae2DSIlL7cUna4ai6QA+D37wvUW+PE5TjcN7asibmT7CbweOUlMe+cVdzpTY1OoZbjdKwUajmoPvtTFbF9Ed9K2qP8fgQvlRpLaajkf6qp2MQ1Ubf//dkVPL20VQotS5yt2Mf3BEKzDGcPEfQf9RxMt1+heOQcw5yZdHD4WVX5BZc/DnAjrdvwupp+qdC3LFWNpbEs40iuNpUwmPJfhVqitVTpzQR/4SUZ4uXXIyRTSXFGaTWTgQSoaN0iy2y7eW90RiIt1w==|1944
