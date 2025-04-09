@@ -89,6 +89,72 @@
           }
         ]
       }
+    },
+    "11,37": {
+      "CellType": {
+        "$type": "Forguncy.FormCellType, ServerDesignerCommon",
+        "ColumnCount": 1,
+        "LabelGap": 8,
+        "CustomLabelSize": 100,
+        "LabelStyle": {
+          "horizontalAlignment": 2,
+          "verticalAlignment": 1
+        },
+        "ItemGap": 24,
+        "RowGap": 24,
+        "ColumnGap": 24,
+        "ValidationErrorTo": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "Name": "Container1",
+        "Padding": {
+          "Left": 12.0,
+          "Top": 12.0,
+          "Right": 12.0,
+          "Bottom": 12.0
+        },
+        "Children": [
+          {
+            "$type": "Forguncy.FormCellTypeItem, ServerDesignerCommon",
+            "Label": "标签",
+            "ItemWidth": 96.0,
+            "ItemHeight": 32.0,
+            "LabelStyle": {
+              "horizontalAlignment": 2,
+              "verticalAlignment": 1
+            },
+            "Name": "Label1",
+            "AttachedInfo": {
+              "CellType": {
+                "$type": "Forguncy.LabelCellType, ServerDesignerCommon",
+                "Text": "文本"
+              }
+            },
+            "StyleInfo": {
+              "Formatter": "@"
+            },
+            "Value": "文本"
+          }
+        ]
+      }
     }
   },
   "StyleDatas": {
@@ -102,7 +168,8 @@
     }
   },
   "Spans": [
-    "4,8,28,17"
+    "4,8,28,17",
+    "11,37,6,10"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -127,4 +194,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//PjAfLUtgCOxUafRxn5J/Y+g6WqwMCUD6aKo5TZ1j6kySfKHz94OjpNk3z2qv39IGWhDaQ2gPYOCuO962h04fEvhABbf+3/Lwrm6NSHM6BrSfWmIUHb/Sym1eVIiggkLL56bqarNmMcvFS3ICMcISP/w40KGEGXlQtWM3BaItisRFsDopRGekBDmF4ISTKWVKBxikERiZjFq28GmxByDKwDR5is+/c5iUyMWq//J5y41ErNO+bHQg7aOLWaYZdUkEVrJrNLHZxXw9XjKnu7HGxAImpqKLJi7K8C1XsyUPJbmtekhUB0XeZP+CVAXXTGO8SPtrjmmBcQhIsJLgS+dlfVRTsXACFIoU9yKnG3FBmkQ5Ador4A+/QhUbP7iYLmJgg0HUUamc4s4WPekkTC4rpvt1QOZphaQTfwA5MuE2pEyDgQZFQ98PzO2i1YmT2TKKM/GwNjfZUaGLOcqqcYjKIrjGnoaIgbfeiAmq5dbEmi/wkA9e2vuXE1vsIDjcaQuQSocyxDcxp6LUp0WAgd9g8RGjXteLur/m1sXlHufVAw0XFvoeyTHvg/xYEq3MQspocWSzLFJ6hAgzZZIzOoPUZQMOHw0Ak1YoMljEWXbOvLZqAYdw8MwbNMtSj7exOv1Yq9i5Xto8mzWrHarUKvSuf7JoH8+FR0u4jQtAXu3IZMLehxdjUu9SfTjda0QwdslXMLQbMyAcq4jJZYwRAe3znSZqjWKVjr9My9Xh82TbLTxCm1SAxxNp08ulPD2bdLsv25zm1Sq/JMJELAaVg67EAFe1g++suD1W9FW8IW1Fz4YhLD+smSO8eNBeH4O4EguAO3EuMehJZHljzyHUxCBRrFCY73bU5rMUe1t4yAuyRrH2+bgdMmRCQXA0LkZTYk+MOAlGlR1NgaPdQ5Kq7UE6jA==|920
+}//SxeV4u7WLwYGco5p+G5emAMWVm8R31//XptD0ktMPwOqxyFMBJ//JKqZGJ4h8aBt+adf8BxNTSXuhoL1GZJuNuflcgbwwLqzy+b2sdL02n8V4T0suJFCWq9Yphq1o9ST43PeoDNt7HDInu5sG66WI7T3GS974J/4CB1KgTnq2xu4uB/AoFkUzscLg9Zs6sNfW/yuKaC4yxlaVd1xExHsMquAIkSrZ9T676VIhU9rUFvgpPYzXm7uZhXPd+200jHfv6BhszrybxVmsBikrT5mb3KzYnaN6XTJR2VQLcGbBD48t3RkHLyzlKQcoDuPoyUd1MYf0ksCoZM1KnZBTP4VZ3N9C1g3bojP1oVA5MOR6LvvMztPvRh7/M3nBkv6vkHmAnAaM5Ui+Ify78YFtEi8B+bcRCp2aOGGOtLx11ZqEbBun3p2oFqw8yrRfQnpLM3OTBlsFjyEbMyFDSOG7PsMdgHeAyI3QwJ4tYtxXaSmrylsWBk4NSU4S1FB/AZ7pZLklqcINfepRX4MmbvsxGObfSU7yNKmMIirDc3hz7IKF/nd9QRVm58aDm0nJTT5dyURZP+ZMeRpiAMiUDgfak4ZHKVlVuhe21Q45Xk7VoJ3tvRfJdYokkX8YpJm2ROt4DHnBezuhnvmOsqDqb74P63OdQ5X9HRnf+Djs1rVIC+N3M7nBnkeZmvT0hIhSyE/bxacKdWUsc6TrZlYdu5GBY/pSiJkys4f0dSdIa47D3NThemQIwgLUZ8aWz78oPS/Fy03qy5lwv9yd0y4JZc6pFW8OD1v28TRgsz+u+OVH3/I7e2vvpo5YZZiBYhjsJlEeTgMcdRhS9+QcXELfEJrq627SmOA5ei5oaeQsUUwBUU8km1fd9w2yRBSjGb7xyCRbRPpi394M7UslmUE+0Ekg/kE0g==|920
